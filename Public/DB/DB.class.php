@@ -12,9 +12,9 @@ class DB
     static $pdo;
     static function pdo(){
 
-        $dsn=sprintf("%s:host=%s;dbname=%s","mysql","mysql.coding.io","db-XiukLMOfJ1");
+        $dsn=sprintf("%s:host=%s;dbname=%s","mysql","mysql.coding.io","db-UXTKLDlW3H");
       	
-        self::$pdo=new PDO($dsn,"user-aEbrkKorXw","1IlStv5Efkhg2KDa");
+        self::$pdo=new PDO($dsn,"user-wE5V3ZfCPD","te~[x^%un#nSXbTour1Q");
         self::$pdo->query("set names utf8");
 
 
