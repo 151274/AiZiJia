@@ -1,0 +1,38 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+form{
+    width:600px;
+    border:1px solid black;
+    margin:0 auto;
+}
+form div:nth-of-type(1){
+    display: none;
+}
+form div{
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+form div label{
+    display: inline-block;
+    width:120px;
+    /*height:40px;*/
+    /*line-height: 40px;*/
+    border-right:1px solid black;
+    padding:20px 10px;
+}
+form div input{
+    width:400px;
+    /*height:30px;*/
+    /*line-height: 40px;*/
+    padding:10px;
+    margin:10px;
+}
+#submit{
+    width:200px;
+    height:40px;
+    font-size: 18px;
+    font-weight: 900;
+    margin:0 auto;
+}
+
+

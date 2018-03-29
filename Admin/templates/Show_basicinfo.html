@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">网站名称</td>
+            <td valign="top">网站logo</td>
+            <td valign="top">版权信息</td>
+            <td valign="top">站点地址</td>
+            <td valign="top">操作</td>
+        </tr>
+        {if $arr}
+        {foreach from=$arr item=value key=k}
+        <tr>
+            <td valign="top"><p>{$value.sitename}</p></td>
+            <td valign="top"><p><img src="{$uploads}{$value.sitelogo}" alt=""></p></td>
+            <td valign="top"><p>{$value.copyinfo}</p></td>
+            <td valign="top"><p>{$value.siteurl}</p></td>
+            <td valign="top">
+                <a href="Add_basicinfo.php?table=basicinfo&id={$value.id}">修改</a>
+                <a href="delete.php?table=basicinfo&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+        {/if}
+    </table>
+    {if !$arr}
+    <div class="a_link">
+        <a href="Add_basicInfo.php" class="btn btn-default btn-sm">添加</a>
+    </div>
+    {/if}
+
+</div>
+</body>
+</html>

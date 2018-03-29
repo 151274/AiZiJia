@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered" style="margin-bottom: 40px;">
+        <tr>
+            <td valign="top">是否要发票0,1</td>
+            <td valign="top">发票抬头</td>
+            <td valign="top">发票明细</td>
+            <td valign="top">配送地址</td>
+            <td valign="top">订单表号</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.sffp}</td>
+            <td valign="top">{$value.fapiaotaitou}</td>
+            <td valign="top">{$value.fapiaomingxi}</td>
+            <td valign="top">{$value.peisongdizhi}</td>
+            <td valign="top">{$value.dingdanid}</td>
+            <td valign="top">
+                <a href="Add_fapiaoxinxi.php?table=fapiaoxinxi&id={$value.id}">修改</a>
+                <a href="delete.php?table=fapiaoxinxi&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </div>
+
+</div>
+</body>
+</html>

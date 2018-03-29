@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<form action="update.php" method="post">
+    <table class="table table-bordered">
+        <tbody>
+        <tr>
+            <td valign="top">图片名称</td>
+            <td>{$student.stuid}<input type="hidden" name="stuid" id="stuid" placeholder="{$student.stuid}" value="{$student.stuid}"></td>
+        </tr>
+        <tr>
+            <td>姓名</td>
+            <td><input type="text" name="stuname" id="stuname" placeholder="{$student.stuname}" value="{$student.stuname}"></td>
+        </tr>
+        <tr>
+            <td>性别</td>
+            <td><input type="text" name="stusex" id="stusex" placeholder="{$student.stusex}" value="{$student.stusex}"></td>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td><input type="text" name="stuage" id="stuage" placeholder="{$student.stuage}" value="{$student.stuage}"></td>
+
+        </tr>
+        <tr>
+            <td>地址</td>
+            <td><input type="text" name="stuaddress" id="stuaddress" placeholder="{$student.stuaddress}" value="{$student.stuaddress}"></td>
+
+        </tr>
+        <tr>
+            <td><input type="submit" value="提交"></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

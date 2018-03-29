@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+    <form action="Save_lingdui.php" method="post" enctype="multipart/form-data">
+        <table class="table table-bordered">
+        {if $arr}<input class="form-control" type="hidden" name="pdtj" value="{$arr.id}">{/if}
+        <tr>
+            <td><label for="name">领队名称</label></td>
+            <td><input class="form-control" type="text" name="name" id="name" value="{if $arr}{$arr.name}{/if}"></td>
+        </tr>
+
+        <tr class="logo">
+           <td><label for="sit_img">领队图标</label></td>
+            <td>
+                <div class="pic"></div>
+                <label class="form-control" for="sit_img" id="input_file" {if $arr}style="background:transparent;"{/if}>
+                    {if $arr}<img src="{$uploads}{$arr.pic}">{/if}
+                    <input style="display: none;" type="file" name="pic" id="sit_img" accept="image/png, image/jpeg, image/gif, image/jpg" value="{if $arr}{$arr.pic}{/if}">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="content">领队介绍</label></td>
+            <td><textarea class="form-control" name="content" id="content" cols="26" rows="10">{if $arr}{$arr.content}{/if}</textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="right"><input type="submit" class="btn btn-default"></td>
+        </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/input_file.js"></script>
+<script src="js/kindeditor/kindeditor.js"></script>
+<script src="js/kindeditor/lang/zh_CN.js"></script>
+<script>
+    var editor;
+    KindEditor.ready(function (K) {
+        editor = K.create('textarea', {
+            allowFileManager: false, resizeType: 0, //resizeType 2或1或0，2时可以拖动改变宽度和高度，1时只能改变高度，0时不能拖动。默认值: 2
+            items: [
+                'source', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
+                'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+                'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+                'superscript', 'clearhtml', 'quickformat', 'selectall', '/',
+                'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+                'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', 'media', 'insertfile', 'table', 'hr', 'emoticons']
+        });
+    });
+</script>

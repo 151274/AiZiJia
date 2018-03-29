@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;box-sizing:border-box;font-size:14px;font-family:"微软雅黑";}
+
+html,body{width:100%;}
+
+a{text-decoration:none;}
+
+ul,li{list-style:none;}
+
+input,select{outline:none;}
+
+div.content{width:972px;height:100%;overflow:hidden;border:1px solid grey;margin:0 auto;}
+
+.clean{clear: both;}

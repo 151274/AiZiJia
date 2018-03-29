@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">菜单名称</td>
+            <td valign="top">路径</td>
+            <td valign="top">父级菜单的id</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.name}</td>
+            <td valign="top">{$value.url}</td>
+            <td valign="top">{$value.pid_name}</td>
+            <td valign="top">
+                <a href="Add_menuinfo.php?table=menuinfo&id={$value.id}" class="">修改</a>
+                <a href="delete.php?table=menuinfo&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div class="a_link">
+        <a href="Add_menuinfo.php" class="btn btn-default btn-sm">添加</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered" style="margin-bottom: 40px;">
+        <tr>
+            <td valign="top">用户编号</td>
+            <td valign="top">线路id</td>
+            <td valign="top">订单日期</td>
+            <td valign="top">成人数量</td>
+            <td valign="top">儿童数量</td>
+            <td valign="top">房间数量</td>
+            <td valign="top">是否拼房0,1</td>
+            <td valign="top">保险id</td>
+            <td valign="top">订单总价格</td>
+            <td valign="top">状态id</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.userid}</td>
+            <td valign="top">{$value.xid}</td>
+            <td valign="top">{$value.dingdanriqi}</td>
+            <td valign="top">{$value.chengrenshuliang}</td>
+            <td valign="top">{$value.ertongshuliang}</td>
+            <td valign="top">{$value.fangjianshuliang}</td>
+            <td valign="top">{$value.pinfang}</td>
+            <td valign="top">{$value.baoxianid}</td>
+            <td valign="top">{$value.zongjiage}</td>
+            <td valign="top">{$value.zhuangtaiid}</td>
+            <td valign="top">
+                <a href="Add_dingdan.php?table=dingdan&id={$value.id}">修改</a>
+                <a href="delete.php?table=dingdan&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">用户名</td>
+            <td valign="top">邮箱</td>
+            <td valign="top">手机号</td>
+            <td valign="top">密码</td>
+            <td valign="top">邀请码</td>
+            <td valign="top">头像</td>
+            <td valign="top">等级</td>
+            <td valign="top">二维码</td>
+            <td valign="top">关注数量</td>
+            <td valign="top">粉丝数量</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.name}</td>
+            <td valign="top">{$value.email}</td>
+            <td valign="top">{$value.phone}</td>
+            <td valign="top">{$value.password}</td>
+            <td valign="top">{$value.yaoqingma}</td>
+            <td valign="top" align="center"><img src="{$uploads}{$value.photo}" alt="" style="width: 50px;align-items: center;"></td>
+            <td valign="top">{$value.level}</td>
+            <td valign="top" align="center"><img src="{$uploads}{$value.erweima}" alt="" style="width: 50px;align-items: center;"></td>
+            <td valign="top">{$value.guanzhu}</td>
+            <td valign="top">{$value.fensi}</td>
+            <td valign="top">
+                <a href="Add_users.php?table=users&id={$value.id}">修改</a>
+                <a href="delete.php?table=users&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<?php /* Smarty version Smarty-3.0.5, created on 2018-03-29 08:54:06
+         compiled from ".\templates\left.html" */ ?>
+<?php /*%%SmartyHeaderCode:201115abaf72cc7cb08-78416935%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '7c214978f66e6f81a915468ef44806559b57fe36' => 
+    array (
+      0 => '.\\templates\\left.html',
+      1 => 1522283896,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '201115abaf72cc7cb08-78416935',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+)); /*/%%SmartyHeaderCode%%*/?>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').stop().slideUp();
+		}else{
+			$(this).next('ul').stop().slideDown();
+		}
+	});
+})	
+</script>
+
+
+</head>
+
+<body style="min-width:0px;width:100%;background:#f0f9fd;overflow:hidden;">
+<div class="scroll-1">
+	<div class="lefttop"><span></span>通讯录</div>
+    
+    <dl class="leftmenu">
+
+        <dd><!--01-->
+            <a href="Show_basicinfo.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>网站基本信息
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看网站基本信息<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_basicInfo.php" target="rightFrame">添加网站基本信息</a><i></i></li>-->
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--02-->
+            <a href="Show_menuinfo.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>菜单信息表
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看菜单信息表<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_menuinfo.php" target="rightFrame">添加菜单信息表</a><i></i></li>-->
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--03-->
+            <a href="Show_banner.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>轮播图表
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看轮播图表<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_banner.php" target="rightFrame">添加轮播图表</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--04-->
+            <a href="Show_lingdui.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>领队信息表
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看领队信息表<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_lingdui.php" target="rightFrame">添加领队信息表</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--05-->
+            <a href="Show_users.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>用户表
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看用户表<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_users.php" target="rightFrame">添加用户表</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--10-->
+            <a href="Show_xianluxiangqing.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>线路详情
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看线路详情<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_xianluxiangqing.php" target="rightFrame">添加线路详情</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--06-->
+            <a href="Show_xianlupic.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>线路详情图片
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看线路详情图片<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_xianlupic.php" target="rightFrame">添加线路详情图片</a><i></i></li>-->
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--07-->
+            <a href="Show_xingchengjieshao.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>行程介绍
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看行程介绍<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_xingchengjieshao.php" target="rightFrame">添加行程介绍</a><i></i></li>-->
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--08-->
+            <a href="Show_feiyongmingxi.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>费用明细
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看费用明细<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_feiyongmingxi.php" target="rightFrame">添加费用明细</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--09-->
+            <a href="Show_qitashuoming.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>其他说明
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看其他说明<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_qitashuoming.php" target="rightFrame">添加其他说明</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--11-->
+            <a href="Show_lianxiren.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>订单联系人
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看订单联系人<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_lianxiren.php" target="rightFrame">添加订单联系人</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--12-->
+            <a href="Show_youke.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>游客
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看游客<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_youke.php" target="rightFrame">添加游客</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--13-->
+            <a href="Show_baoxian.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>保险
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看保险<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_baoxian.php" target="rightFrame">添加保险</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--14-->
+            <a href="Show_fapiaoxinxi.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>发票信息表
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看发票信息表<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_fapiaoxinxi.php" target="rightFrame">添加发票信息表</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--15-->
+            <a href="Show_dingdan.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>订单表
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看订单表<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_dingdan.php" target="rightFrame">添加订单表</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <dd><!--16-->
+            <a href="Show_zhuangtai.php" target="rightFrame">
+                <div class="title">
+                    <span><img src="images/leftico01.png" /></span>订单状态表
+                </div>
+            </a>
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite>查看订单状态表<i></i></li>-->
+                <!--<li><cite></cite><a href="Add_zhuangtai.php" target="rightFrame">添加订单状态表</a><i></i></li>-->
+
+            <!--</ul>-->
+        </dd>
+
+        <!--<dd>&lt;!&ndash;17&ndash;&gt;-->
+            <!--<div class="title">-->
+                <!--<span><img src="images/leftico01.png" /></span>评论表-->
+            <!--</div>-->
+            <!--<ul class="menuson">-->
+                <!--<li class="active"><cite></cite><a href="Show_pinglun.php" target="rightFrame">查看评论表</a><i></i></li>-->
+                <!--<li><cite></cite><a href="Add_pinglun.php" target="rightFrame">添加评论表</a><i></i></li>-->
+
+            <!--</ul>-->
+        <!--</dd>-->
+    
+    </dl>
+</div>
+</body>
+</html>

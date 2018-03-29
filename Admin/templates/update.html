@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+</head>
+<body>
+<form action="update_to_{$table}.php" method="post">
+
+    <input type="hidden" name="table" value="{$table}">
+    {foreach from=$arr key=key item=value}
+
+    <div>
+        <label for="">{$key}</label>
+        <input type="text" name="{$key}" value="{$value}">
+    </div>
+
+    {/foreach}
+    <input id="submit" type="submit">
+
+</form>
+
+
+</body>
+</html>

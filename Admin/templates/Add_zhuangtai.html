@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+    <form action="Save_zhuangtai.php" method="post" enctype="multipart/form-data">
+        <table class="table table-bordered">
+        {if $arr}<input type="hidden" name="pdtj" value="{$arr.id}">{/if}
+
+        <tr>
+            <td><label for="zhuangtai">订单状态</label></td>
+            <td><input class="form-control" type="text" name="zhuangtai" id="zhuangtai" value="{if $arr}{$arr.zhuangtai}{/if}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="right"><input type="submit" class="btn btn-default"></td>
+        </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+    <form action="Save_users.php" method="post" enctype="multipart/form-data">
+        <table class="table table-bordered">
+        {if $arr}<input type="hidden" name="pdtj" value="{$arr.id}">{/if}
+        <tr>
+            <td><label for="name">用户名</label></td>
+            <td><input class="form-control" type="text" name="name" id="name" value="{if $arr}{$arr.name}{/if}"></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">邮箱</label></td>
+            <td><input class="form-control" type="text" name="email" id="email" value="{if $arr}{$arr.email}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">手机号</label></td>
+            <td><input class="form-control" type="text" name="phone" id="phone" value="{if $arr}{$arr.phone}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="password">密码</label></td>
+            <td><input class="form-control" type="text" name="password" id="password" value="{if $arr}{$arr.password}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="yaoqingma">邀请码</label></td>
+            <td><input class="form-control" type="text" name="yaoqingma" id="yaoqingma" value="{if $arr}{$arr.yaoqingma}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="photo">头像</label></td>
+            <td><input class="form-control" type="text" name="photo" id="photo" value="{if $arr}{$arr.photo}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="level">等级</label></td>
+            <td><input class="form-control" type="text" name="level" id="level" value="{if $arr}{$arr.level}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="erweima">二维码</label></td>
+            <td><input class="form-control" type="text" name="erweima" id="erweima" value="{if $arr}{$arr.erweima}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="guanzhu">关注数量</label></td>
+            <td><input class="form-control" type="text" name="guanzhu" id="guanzhu" value="{if $arr}{$arr.guanzhu}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="fensi">粉丝数量</label></td>
+            <td><input class="form-control" type="text" name="fensi" id="fensi" value="{if $arr}{$arr.fensi}{/if}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="right"><input type="submit" class="btn btn-default"></td>
+        </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

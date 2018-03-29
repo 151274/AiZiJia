@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">保险种类</td>
+            <td valign="top">保险分数</td>
+            <td valign="top">保险价格</td>
+            <td valign="top">保险险情</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.xianzhong}</td>
+            <td valign="top">{$value.fenshu}</td>
+            <td valign="top">{$value.jiage}</td>
+            <td valign="top">{$value.xiangqing}</td>
+            <td valign="top">
+                <a href="Add_baoxian.php?table=baoxian&id={$value.id}">修改</a>
+                <a href="delete.php?table=baoxian&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div class="a_link">
+        <a href="Add_baoxian.php" class="btn btn-default btn-sm">添加</a>
+    </div>
+
+</div>
+</body>
+</html>

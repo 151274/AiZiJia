@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+</head>
+<body>
+<div class="wrap scroll-1">
+    <form action="Save_pinglun.php" method="post" enctype="multipart/form-data">
+        {if $arr}<div><input type="hidden" name="pdtj" value="{$arr.id}"></div>{/if}
+        <div>
+            <label for="userid">用户id</label>
+            <input type="number" name="userid" id="userid" value="{if $arr}{$arr.userid}{/if}">
+        </div>
+        <div>
+            <label for="xid">线路id</label>
+            <input type="number" name="xid" id="xid" value="{if $arr}{$arr.xid}{/if}">
+        </div>
+        <div>
+            <label for="anpai">行程安排1,2,3</label>
+            <input type="number" name="anpai" id="anpai" value="{if $arr}{$arr.anpai}{/if}">
+        </div>
+        <div>
+            <label for="canshi">餐食安排1,2,3</label>
+            <input type="numbert" name="canshi" id="canshi" value="{if $arr}{$arr.canshi}{/if}">
+        </div>
+        <div>
+            <label for="jiaotong">交通安排1,2,3</label>
+            <input type="number" name="jiaotong" id="jiaotong" value="{if $arr}{$arr.jiaotong}{/if}">
+        </div>
+        <div>
+            <label for="zonghepingjia">综合评价5分</label>
+            <input type="number" name="zonghepingjia" id="zonghepingjia" value="{if $arr}{$arr.zonghepingjia}{/if}">
+        </div>
+        <div>
+            <label for="pinglun">评论</label>
+            <textarea name="pinglun" id="pinglun" cols="26" rows="10"> value="{if $arr}{$arr.pinglun}{/if}"</textarea>
+        </div>
+        <div>
+            <label for="dingdanid">订单id</label>
+            <input type="number" name="dingdanid" id="dingdanid" value="{if $arr}{$arr.dingdanid}{/if}">
+        </div>
+        <div>
+            <label for="pinglunriqi">评论日期</label>
+            <input type="date" name="pinglunriqi" id="pinglunriqi" value="{if $arr}{$arr.pinglunriqi}{/if}">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>

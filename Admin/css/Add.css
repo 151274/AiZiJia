@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+    overflow:hidden;
+}
+
+table.table{
+    margin: 40px;
+    max-width: 980px;
+}
+table.table tr td label{
+    font-size: 16px;
+
+}
+tr td:first-child{
+    background-color: rgba(242,242,242,.7);
+}
+tr td:first-child{
+    width: 200px;
+}
+textarea{
+    resize:none;
+    outline:none;
+}
+
+.logo td:nth-of-type(2) label{float:left;max-width:220px;margin:16px;background:url("../images/+.png") 0 0 no-repeat;cursor:pointer;}
+.logo td:nth-of-type(2) label img{max-width: 200px;}
+.logo .pic{float:left;width:0px;height:80px;}
+.logo .pic img:first-child{margin-left:5px;}
+.logo .pic img{height:60px;margin:10px 5px 10px 0;}
+
+
+.scroll-1{width:100%;height:549px;overflow:auto;}
+.scroll-1::-webkit-scrollbar-button{display:none;}
+
+.scroll-1::-webkit-scrollbar {
+    width:4px;
+    height:10px;
+}
+.scroll-1::-webkit-scrollbar-track     {
+    background:transparent;
+}
+.scroll-1::-webkit-scrollbar-thumb{
+    background:#52BBDB;
+    border-radius:2px;
+}
+.scroll-1::-webkit-scrollbar-corner {
+    background:#82AFFF;
+}
+.scroll-1::-webkit-scrollbar-resizer  {
+    background:#82AFFF;
+}

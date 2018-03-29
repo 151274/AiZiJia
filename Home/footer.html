@@ -1,0 +1,18 @@
+<footer>
+    <div class="footer_top">
+        <div class="content">
+            <ul>
+                {foreach from=$arr.menu item=val}
+                {if $val.pid==2}
+                <li>{$val.name}</li>
+                {/if}
+                {/foreach}
+            </ul>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="content">
+            <p>{$arr.basicinfo.copyinfo}</p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+    <form action="Save_xingchengjieshao.php" method="post" enctype="multipart/form-data">
+        <table class="table table-bordered">
+        {if $arr}<input type="hidden" name="pdtj" value="{$arr.id}">{/if}
+        <tr>
+            <td><label for="xid">线路id</label></td>
+            <td><input class="form-control" type="number" name="xid" id="xid" value="{if $arr}{$arr.xid}{/if}"></td>
+        </tr>
+
+        <tr>
+            <td><label for="days">第几天</label></td>
+            <td><input class="form-control" type="text" name="days" id="days" value="{if $arr}{$arr.days}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="xianlu">线路</label></td>
+            <td><input class="form-control" type="text" name="xianlu" id="xianlu" value="{if $arr}{$arr.xianlu}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="canshi">餐食</label></td>
+            <td><input class="form-control" type="text" name="canshi" id="canshi" value="{if $arr}{$arr.canshi}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="zhusu">住宿</label></td>
+            <td><input class="form-control" type="text" name="zhusu" id="zhusu" value="{if $arr}{$arr.zhusu}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="luxianxiangqing">路线详情</label></td>
+            <td><textarea class="form-control" name="luxianxiangqing" id="luxianxiangqing" rows="10">{if $arr}{$arr.luxianxiangqing}{/if}</textarea></td>
+        </tr>
+        <tr>
+            <td><label for="img1">图片1</label></td>
+            <td><input class="form-control" type="text" name="img1" id="img1" value="{if $arr}{$arr.img1}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="img2">图片2</label></td>
+            <td><input class="form-control" type="text" name="img2" id="img2" value="{if $arr}{$arr.img2}{/if}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" class="btn btn-default"></td>
+        </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
+<script src="js/kindeditor/kindeditor.js"></script>
+<script src="js/kindeditor/lang/zh_CN.js"></script>
+<script>
+    var editor;
+    KindEditor.ready(function (K) {
+        editor = K.create('textarea', {
+            allowFileManager: false, resizeType: 0, //resizeType 2或1或0，2时可以拖动改变宽度和高度，1时只能改变高度，0时不能拖动。默认值: 2
+            items: [
+                'source', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
+                'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+                'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+                'superscript', 'clearhtml', 'quickformat', 'selectall', '/',
+                'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+                'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', 'media', 'insertfile', 'table', 'hr', 'emoticons']
+        });
+    });
+</script>

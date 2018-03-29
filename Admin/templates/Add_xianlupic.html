@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+</head>
+<body>
+<div class="wrap scroll-">
+    <form action="Save_xianlupic.php" method="post" enctype="multipart/form-data">
+        {if $arr}<div><input type="hidden" name="pdtj" value="{$arr.id}"></div>{/if}
+        <div>
+            <label for="xid">线路id</label>
+            <input type="text" name="xid" id="xid" value="{if $arr}{$arr.xid}{/if}">
+        </div>
+
+        <div>
+            <label for="pic">图片</label>
+            <input type="text" name="pic" id="pic" value="{if $arr}{$arr.pic}{/if}">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>

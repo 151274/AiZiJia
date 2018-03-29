@@ -1,0 +1,113 @@
+<header>
+    <div class="header_top">
+        <div class="content" style="z-index: 1">
+            <div class="chengshi"><span></span>北京 <a href="#">切换</a></div>
+            <div class="app_down"><a href="#"><span></span>下载手机app</a></div>
+            {if !isset($smarty.session.username)}
+                <div class="right right_one">
+                    <a href="#" class="qq"></a>
+                    <a href="#" class="xlwb"></a>
+                    <div class="login">
+                        <a href="#" class="denglu">登录</a> | <a href="#" class="zhuce">注册</a>
+                    </div>
+                </div>
+            {else}
+                 <!--right_two 登录后的div -->
+                <div class="right right_two">
+                <div class="user">
+                <div class="touxiang_top"><img src="{$uploads}{$smarty.session.username.photo}"></div>
+                <span>{$smarty.session.username.name}</span>
+                <a href="#">></a>
+                <ul class="erji">
+                <li><a href="gerenzhuye.php">个人主页</a></li>
+                <li><a href="tuichudenglu.php">退出登录</a></li>
+                </ul>
+                </div>
+                <a href="dingzhi.php">线路订制</a>
+                </div>
+                <script type="text/javascript" src="{$Home}js/tuichudenglu.js"></script>
+            {/if}
+        </div>
+    </div>
+    <div class="header_bottom">
+        <div class="content">
+            <a href="index.php"><div class="logo" style="background:url('{$Home}images/{$arr.basicinfo.sitelogo}') 0 0 no-repeat;"></div></a>
+            <div class="menu">
+                <ul>
+                    {foreach from=$arr.menu item=val}
+                    {if $val.pid==1}
+                    <li><a {if $val.name=='自驾团'}class="first"{/if} href="{$val.url}">{$val.name}</a></li>
+                    {/if}
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--非会员登陆页面-->
+<div id="feihuiyuandenglu" style="display: none;">
+    <div>
+        <a href="javascript:;" class="tuichu"></a>
+        <div class="feihuiyuandenglu_logo"></div>
+        <form action="login.php" method="post" class="feihuiyuandenglu_form">
+            <div><input type="text" name="username" placeholder="邮箱/手机/用户名"></div>
+            <div><input type="password" name="password" placeholder="密码"></div>
+            <div class="submit"><input type="submit" value="登录"></div>
+            <div class="wangjimima">
+                <a href="#">忘记密码</a>
+                <span>还没有账号？<a href="#" class="mianfeizhuce">免费注册</a></span>
+            </div>
+            <hr color="#50BBDB">
+            <span>其他报名方式</span>
+            <a href="#">不登录，直接报名></a>
+        </form>
+    </div>
+</div>
+<!--非会员注册页面-->
+<div id="feihuiyuanzhuce" style="display: none;">
+    <div>
+        <a href="javascript:;" class="tuichu"></a>
+        <div class="feihuiyuandenglu_logo"></div>
+        <form action="zhuce.php" method="post" class="feihuiyuandenglu_form feihuiyuanzhuce">
+            <div><input type="email" name="email" placeholder="请输入邮箱"></div>
+            <div><input type="text" name="name" placeholder="用户名，4-16个字符，字母/中文/数字"></div>
+            <div><input type="password" name="password" placeholder="设置密码"></div>
+            <div><input type="password" name="password_shi" placeholder="确认密码"></div>
+            <div><input type="text" name="yaoqingma" placeholder="输入邀请码，可不填"></div>
+            <div class="wangjimima">
+                <span style="font-size:12px;">注册视为同意《爱自驾用户使用协议》</span>
+            </div>
+            <div class="submit"><input type="submit" value="注册"></div>
+            <hr color="#50BBDB">
+            <span>其他报名方式</span>
+            <a href="#">快速登陆></a>
+        </form>
+    </div>
+</div>
+<!--会员登录页面-->
+<!--<div id="huiyuandenglu" style="display: none">-->
+    <!--<div>-->
+        <!--<a href="javascript:;" class="tuichu"></a>-->
+        <!--<div class="left">-->
+            <!--<h2>会员登录</h2>-->
+            <!--<form action="" class="huiyuandenglu">-->
+                <!--<div><input type="text" name="username" placeholder="用户名"></div>-->
+                <!--<div><input type="password" name="password" placeholder="密码"></div>-->
+                <!--<div>点击显示</div>-->
+                <!--<div><input type="checkbox" name="auto_login" id="auto_login" value="ok"><label-->
+                        <!--for="auto_login">两周内自动登录</label><a href="#" class="wangjimima">忘记密码</a></div>-->
+                <!--<div><a href="#">没有用户名,立即注册</a></div>-->
+                <!--<div class="submit"><input type="submit" value="立即登录"></div>-->
+            <!--</form>-->
+        <!--</div>-->
+        <!--<div class="right">-->
+            <!--<h2>非会员预订</h2>-->
+            <!--<a href="#">不登录,直接预订></a>-->
+        <!--</div>-->
+        <!--</form>-->
+    <!--</div>-->
+<!--</div>-->
+{if !isset($smarty.session.username)}
+<script type="text/javascript" src="{$Home}js/login.js"></script>
+{/if}

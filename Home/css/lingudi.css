@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.top_filed,.top_filed span{margin:20px 0;color:#ADADAD;font-size:18px;}
+
+.lingduijieshao{width:100%;overflow:hidden;}
+
+.lingduijieshao h1{height:40px;border-left:6px solid #50BBDB;line-height:40px;text-indent:20px;font-size:18px;margin-bottom:10px;}
+
+.lingduijieshao div.pic{float:left;width:150px;height:200px;}
+.lingduijieshao div.pic p{float:left;width:150px;text-align:center;padding:10px 0;}
+.lingduijieshao>p{width:786px;float:right;line-height:28px;color:#959595;}
+
+.h1_ys>h2{height:40px;border-left:6px solid #50BBDB;line-height:40px;text-indent:20px;font-size:18px;margin:20px 0;}

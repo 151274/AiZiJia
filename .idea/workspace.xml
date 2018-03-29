@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52ba2562-8b68-410e-b1c1-31844b06d7e8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change beforePath="$PROJECT_DIR$/Admin/Common.php" afterPath="$PROJECT_DIR$/Admin/Common.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/Save_feiyongmingxi.php" afterPath="$PROJECT_DIR$/Admin/Save_feiyongmingxi.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/Save_qitashuoming.php" afterPath="$PROJECT_DIR$/Admin/Save_qitashuoming.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_baoxian.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_baoxian.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_dingdan.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_dingdan.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_fapiaoxinxi.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_fapiaoxinxi.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_feiyongmingxi.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_feiyongmingxi.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_lianxiren.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_lianxiren.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_qitashuoming.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_qitashuoming.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_xingchengjieshao.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_xingchengjieshao.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_youke.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_youke.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Add_zhuangtai.html" afterPath="$PROJECT_DIR$/Admin/templates/Add_zhuangtai.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Show_feiyongmingxi.html" afterPath="$PROJECT_DIR$/Admin/templates/Show_feiyongmingxi.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates/Show_qitashuoming.html" afterPath="$PROJECT_DIR$/Admin/templates/Show_qitashuoming.html" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/013ee4110c47b4c9414a26c05ae3d66b49272961.file.Show_qitashuoming.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/013ee4110c47b4c9414a26c05ae3d66b49272961.file.Show_qitashuoming.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/06f2fd8d9a960ed1fa3c26ccfad67689d23fc229.file.index.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/06f2fd8d9a960ed1fa3c26ccfad67689d23fc229.file.index.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/0b072c73f1a90e16a70c285a792d44025b87458d.file.Show_baoxian.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/0b072c73f1a90e16a70c285a792d44025b87458d.file.Show_baoxian.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/32383bfd071a5f40dcb55c752c23ce6ed37dde3c.file.Add_lianxiren.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/32383bfd071a5f40dcb55c752c23ce6ed37dde3c.file.Add_lianxiren.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/3b0b4c7248d6bf6236012845f58ba9b82a2616a8.file.Show_zhuangtai.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/3b0b4c7248d6bf6236012845f58ba9b82a2616a8.file.Show_zhuangtai.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/3cfb945a88109aeb358583fe727eb0990ebf55b1.file.Show_xingchengjieshao.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/3cfb945a88109aeb358583fe727eb0990ebf55b1.file.Show_xingchengjieshao.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/3ec5cc4c9d0e21c5c92b94ed649a5416160d787a.file.main.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/3ec5cc4c9d0e21c5c92b94ed649a5416160d787a.file.main.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/6242092561ba76c2e0f4660d4b1906b46bc5bd35.file.top.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/6242092561ba76c2e0f4660d4b1906b46bc5bd35.file.top.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/7ba2b1e13258355c76e343c2de74dc9844a17036.file.Show_fapiaoxinxi.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/7ba2b1e13258355c76e343c2de74dc9844a17036.file.Show_fapiaoxinxi.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/7c214978f66e6f81a915468ef44806559b57fe36.file.left.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/7c214978f66e6f81a915468ef44806559b57fe36.file.left.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/8630a7ac9432a93e85a49679ddab681667e82954.file.Add_dingdan.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/8630a7ac9432a93e85a49679ddab681667e82954.file.Add_dingdan.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/8a35398b1c2b69a1606f1aa60e35935d47aaf538.file.Add_xianluxiangqing.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/8a35398b1c2b69a1606f1aa60e35935d47aaf538.file.Add_xianluxiangqing.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/96de80a089c27aad231cadf362ab586ac131faee.file.Add_qitashuoming.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/96de80a089c27aad231cadf362ab586ac131faee.file.Add_qitashuoming.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/b770c5ae62d4807d85562196d4dc395c3f06a58f.file.Add_fapiaoxinxi.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/b770c5ae62d4807d85562196d4dc395c3f06a58f.file.Add_fapiaoxinxi.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/c20ddf8c2cd3c9fdf82e9b30a7a035dbc4022832.file.Add_zhuangtai.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/c20ddf8c2cd3c9fdf82e9b30a7a035dbc4022832.file.Add_zhuangtai.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/c32858cb87f757a6e8e6fe9061b19697da335d22.file.Show_xianlupic.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/c32858cb87f757a6e8e6fe9061b19697da335d22.file.Show_xianlupic.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/c85a4254544218ae010223eb1e59d0148883ac1f.file.Add_feiyongmingxi.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/c85a4254544218ae010223eb1e59d0148883ac1f.file.Add_feiyongmingxi.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/dd9f3497937509dd70c6018f8351f2c1a0c853c8.file.Show_xianluxiangqing.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/dd9f3497937509dd70c6018f8351f2c1a0c853c8.file.Show_xianluxiangqing.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/e54060a71752eff1156deca19372d181ff8296b8.file.Add_xingchengjieshao.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/e54060a71752eff1156deca19372d181ff8296b8.file.Add_xingchengjieshao.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/e54b63cf1025f259225e57b39f71cfc8183e3007.file.Show_lianxiren.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/e54b63cf1025f259225e57b39f71cfc8183e3007.file.Show_lianxiren.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/e65ce81b129bbf4663f57120c8bd7b8877d70734.file.Add_youke.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/e65ce81b129bbf4663f57120c8bd7b8877d70734.file.Add_youke.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/e78276a08206ae1ebd8f4dd2c1084048d84b535b.file.Show_youke.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/e78276a08206ae1ebd8f4dd2c1084048d84b535b.file.Show_youke.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/f6fdba72e5e5349cbd3b5b3463fcdb0e4a822a51.file.Show_feiyongmingxi.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/f6fdba72e5e5349cbd3b5b3463fcdb0e4a822a51.file.Show_feiyongmingxi.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/f7ed96dd6d64e4d0caf9330547dcd53c252e2880.file.Add_baoxian.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/f7ed96dd6d64e4d0caf9330547dcd53c252e2880.file.Add_baoxian.html.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/templates_c/f8f82ba51ff35b1f1723b060e7fb8bc1de28f71e.file.Show_dingdan.html.php" afterPath="$PROJECT_DIR$/Admin/templates_c/f8f82ba51ff35b1f1723b060e7fb8bc1de28f71e.file.Show_dingdan.html.php" />
+      <change beforePath="$PROJECT_DIR$/Common.php" afterPath="$PROJECT_DIR$/Common.php" />
+      <change beforePath="$PROJECT_DIR$/Home/css/denglu.css" afterPath="$PROJECT_DIR$/Home/css/denglu.css" />
+      <change beforePath="$PROJECT_DIR$/Home/css/gerenzhuye.css" afterPath="$PROJECT_DIR$/Home/css/gerenzhuye.css" />
+      <change beforePath="$PROJECT_DIR$/Home/css/style.css" afterPath="$PROJECT_DIR$/Home/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/Home/gerenzhuye.html" afterPath="$PROJECT_DIR$/Home/gerenzhuye.html" />
+      <change beforePath="$PROJECT_DIR$/Home/header.html" afterPath="$PROJECT_DIR$/Home/header.html" />
+      <change beforePath="$PROJECT_DIR$/Public/DB/DB.class.php" afterPath="$PROJECT_DIR$/Public/DB/DB.class.php" />
+      <change beforePath="$PROJECT_DIR$/gerenzhuye.php" afterPath="$PROJECT_DIR$/gerenzhuye.php" />
+      <change beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/04bee50338d3f4f3aa4779b26c1b224ef8a2d306.file.banner.html.php" afterPath="$PROJECT_DIR$/templates_c/04bee50338d3f4f3aa4779b26c1b224ef8a2d306.file.banner.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/18e18daf655a87585e133a1bfe97e6fb7813dcf9.file.index.html.php" afterPath="$PROJECT_DIR$/templates_c/18e18daf655a87585e133a1bfe97e6fb7813dcf9.file.index.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/1a42060841bfe19567308007fda9cde3c3f1ae72.file.zhifu.html.php" afterPath="$PROJECT_DIR$/templates_c/1a42060841bfe19567308007fda9cde3c3f1ae72.file.zhifu.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/35d63d2e7f05ba1314777c079869fd9c3d9e367a.file.header.html.php" afterPath="$PROJECT_DIR$/templates_c/35d63d2e7f05ba1314777c079869fd9c3d9e367a.file.header.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/46a0c111538d28671ac2c13241852c0b873fcafd.file.dingzhi.html.php" afterPath="$PROJECT_DIR$/templates_c/46a0c111538d28671ac2c13241852c0b873fcafd.file.dingzhi.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/74c2fb3781eb8fae9e38079f3bb80875ee56fd7c.file.xiangqing.html.php" afterPath="$PROJECT_DIR$/templates_c/74c2fb3781eb8fae9e38079f3bb80875ee56fd7c.file.xiangqing.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/a553e909fb992645866c40b3317b57c9295e9be5.file.tianxiedingdan.html.php" afterPath="$PROJECT_DIR$/templates_c/a553e909fb992645866c40b3317b57c9295e9be5.file.tianxiedingdan.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/ce52bebcdf7f315d163e9b0fb7fb7309b142dfb6.file.footer.html.php" afterPath="$PROJECT_DIR$/templates_c/ce52bebcdf7f315d163e9b0fb7fb7309b142dfb6.file.footer.html.php" />
+      <change beforePath="$PROJECT_DIR$/templates_c/d31a27894a6cc81fe63081d2ef4c43a29d93e7b3.file.gerenzhuye.html.php" afterPath="$PROJECT_DIR$/templates_c/d31a27894a6cc81fe63081d2ef4c43a29d93e7b3.file.gerenzhuye.html.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Add_basicInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/templates/Add_basicInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="45" column="63" lean-forward="false" selection-start-line="45" selection-start-column="63" selection-end-line="62" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add_dingdan.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/templates/Add_dingdan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="57" column="73" lean-forward="false" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add_zhuangtai.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/templates/Add_zhuangtai.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#dingdanxiangqing</find>
+      <find>gerenzhuye.js</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.dingdanxiangqing</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Common.php" />
+        <option value="$PROJECT_DIR$/Admin/Common.php" />
+        <option value="$PROJECT_DIR$/Public/DB/DB.class.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/Home/header.html" />
+        <option value="$PROJECT_DIR$/Home/css/style.css" />
+        <option value="$PROJECT_DIR$/Home/ddxq.html" />
+        <option value="$PROJECT_DIR$/dingdanxiangqing.php" />
+        <option value="$PROJECT_DIR$/Home/css/denglu.css" />
+        <option value="$PROJECT_DIR$/Home/css/gerenzhuye.css" />
+        <option value="$PROJECT_DIR$/gerenzhuye.php" />
+        <option value="$PROJECT_DIR$/Home/gerenzhuye.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_xingchengjieshao.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_feiyongmingxi.html" />
+        <option value="$PROJECT_DIR$/Public/DB/Sql.class.php" />
+        <option value="$PROJECT_DIR$/Admin/Save_feiyongmingxi.php" />
+        <option value="$PROJECT_DIR$/Admin/templates/Show_feiyongmingxi.html" />
+        <option value="$PROJECT_DIR$/Admin/Save_qitashuoming.php" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_qitashuoming.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Show_qitashuoming.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_lianxiren.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_youke.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_baoxian.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_fapiaoxinxi.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_dingdan.html" />
+        <option value="$PROJECT_DIR$/Admin/templates/Add_zhuangtai.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="y" value="-14" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aizijia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aizijia" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aizijia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aizijia" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aizijia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aizijia" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp5" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://086c4a73-c0f6-4a7d-a7ca-1a32d6bae847.coding.io" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52ba2562-8b68-410e-b1c1-31844b06d7e8" name="Default" comment="" />
+      <created>1522284045085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522284045085</updated>
+      <workItem from="1522284046553" duration="5506000" />
+      <workItem from="1522297616840" duration="432000" />
+      <workItem from="1522298429800" duration="16566000" />
+      <workItem from="1522323246570" duration="466000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22970000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17130308" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_basicInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="63" selection-end-line="62" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_dingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="73" lean-forward="false" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_zhuangtai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Public/DB/DB.class.php" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Admin/Common.php" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Home/css/denglu.css" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Home/header.html" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Home/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/login.php" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/tuichudenglu.php" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Admin/templates/Show_xianlupic.html" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Admin/templates/Add_xianluxiangqing.html" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Admin/css/style.css" />
+    <entry file="https://086c4a73-c0f6-4a7d-a7ca-1a32d6bae847.coding.io">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Home/css/gerenzhuye.css" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/gerenzhuye.php" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/index.php" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/dingdanxiangqing.php" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Home/ddxq.html" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Home/gerenzhuye.html" />
+    <entry file="file://$PROJECT_DIR$/../aizijia_localhost/Common.php" />
+    <entry file="file://$PROJECT_DIR$/Home/css/denglu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="73" lean-forward="false" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/js/gerenzhuye.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/css/gerenzhuye.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/js/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dingdanxiangqing.php" />
+    <entry file="file://$PROJECT_DIR$/Home/tianxiedingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="54" column="66" lean-forward="false" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhifu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/gerenzhuye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="178" column="67" lean-forward="false" selection-start-line="178" selection-start-column="67" selection-end-line="178" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gerenzhuye.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_xingchengjieshao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/DB/Sql.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="217" column="30" lean-forward="true" selection-start-line="217" selection-start-column="30" selection-end-line="217" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Show_feiyongmingxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Show_feiyongmingxi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Save_feiyongmingxi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_feiyongmingxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_qitashuoming.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Save_qitashuoming.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Show_qitashuoming.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Show_qitashuoming.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Add_qitashuoming.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_lianxiren.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_youke.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="42" column="99" lean-forward="false" selection-start-line="42" selection-start-column="99" selection-end-line="42" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_baoxian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_fapiaoxinxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_basicInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="63" lean-forward="false" selection-start-line="45" selection-start-column="63" selection-end-line="62" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_dingdan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="73" lean-forward="false" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/templates/Add_zhuangtai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

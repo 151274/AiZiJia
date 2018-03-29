@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>境内首页</title>
+    <link rel="stylesheet" href="{$Home}css/reset.css">
+    <link rel="stylesheet" href="{$Home}css/style.css">
+    <link rel="stylesheet" href="{$Home}css/denglu.css">
+    <script type="text/javascript" src="{$Home}js/jquery-1.9.1.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <!--头部-->
+    {include file="header.html"}
+    <!--轮播图-->
+    {include file="banner.html"}
+    <!--主体内容-->
+    <div id="main">
+        <div class="content">
+            <!--热门搜索-->
+            <div class="search">
+                <form action="chengshisousuo.php">
+                    <div class="input"><input type="text" name="name" id="name"></div>
+                    <div class="submit"><input type="submit" value=""></div>
+                </form>
+                <div class="remen">
+                    <ul>
+                        <li class="first">热门搜索：</li>
+                        <li>北京</li>
+                        <li>西安</li>
+                        <li>天津</li>
+                        <li>上海</li>
+                        <li>杭州</li>
+                        <li>青海</li>
+                        <li>西藏</li>
+                        <li>云南</li>
+                    </ul>
+                </div>
+            </div>
+            <!--境内-->
+            <div class="jingnei h1_ys">
+                <h1><a href="jingnei.php">境内 </a><span><a href="jingnei.php">Territory</a></span></h1>
+                <ul class="jingwai_list list">
+                    {foreach from=$arr.list item=value}
+                    <li>
+                        <div class="pic"><a href="xiangqing.php?id={$value.id}&&lingduiid={$value.lingduiid}"><img src="{$Home}images/{$value.pic}" alt="img1.png"><p>{$value.xianlumingcheng}</p></a></div>
+                        <div>
+                            <div><span class="price">{$value.danjia}</span>起</div>
+                            <span class="chufa">{$value.chufariqi}出发</span>
+                            <span class="tianshu">{$value.tianshu}天</span>
+                        </div>
+                        <div class="xianlu"><h2>{$value.xingchenggaiyao}</h2></div>
+                        <div class="biaoti_min">{$value.jianduanjieshao}</div>
+                        <div class="bottom">
+                            <div class="left"><a href="lingdui.php?id={$value.lingduiid}" style="color: #808080;"><span></span>
+                                {foreach from=$arr.lingdui item=lingdui_val}
+                                {if $lingdui_val.id=={$value.lingduiid}}
+                                {$lingdui_val.name}
+                                {/if}
+                                {/foreach}</a>
+                            </div>
+                            <div class="liulan"><span></span>{$value.chakancishu}</div>
+                            <div class="dianzan"><span></span>{$value.dianzancishu}</div>
+                        </div>
+                    </li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--尾部-->
+    {include file="footer.html"}
+</div>
+</body>
+</html>

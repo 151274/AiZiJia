@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">费用明细</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.feiyongmingxi}</td>
+            <td valign="top">
+                <a href="Add_feiyongmingxi.php?table=feiyongmingxi&id={$value.id}">修改</a>
+                <a href="delete.php?table=feiyongmingxi&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+</div>
+
+</div>
+</body>
+</html>

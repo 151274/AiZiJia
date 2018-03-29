@@ -1,0 +1,21 @@
+<div class="banner">
+    <div class="pic">
+        <ul style="width:7680px;">
+            {foreach from=$arr.banner item=value}
+            <li><img src="{$Home}images/{$value.pic}" alt=""></li>
+            {/foreach}
+        </ul>
+    </div>
+    <div class="banner_btn">
+        <ul>
+        </ul>
+    </div>
+    <script type="text/javascript" src="{$Home}js/carousel.js"></script>
+    <script type="text/javascript">
+        var li_num=document.getElementsByClassName('banner')[0].getElementsByClassName('pic')[0].getElementsByTagName('ul')[0].children.length;
+        console.log(li_num);
+        $(".banner .pic ul").css("width",1347*(li_num+1)+"px");
+        $(".banner .banner_btn").css("width",50*li_num+"px");
+        $(".banner .banner_btn").css("margin-left",-25*li_num+"px");
+    </script>
+</div>

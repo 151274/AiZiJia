@@ -1,0 +1,276 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+
+/*header*/
+/*top*/
+header{
+	position: relative;
+}
+header .top{
+	width:100%;
+	height:40px;
+	background-color: #244D5F;
+	position: relative;
+}
+header .top .top_1{
+	width:80%;
+	height:40px;
+	margin:0 auto;
+	color:white;
+	position: relative;
+}
+header .top .top_1 .list_1{
+	position: absolute;
+	top:20%;
+}
+header .top .top_1 .list_1 li{
+	list-style: none;
+	display:inline-block;
+	margin:1px;
+}
+header .top .top_1 .list_1 li:nth-child(3){
+	color:gray;
+}
+header .top .top_1 .list_2{
+	position: absolute;
+	top:20%;
+	left:20%;
+}
+header .top .top_1 .list_2 li{
+	list-style: none;
+	display:inline-block;
+	margin:1px;
+}
+header .top .top_1 .list_3{
+	position: absolute;
+	top:10%;
+	right:0;
+}
+header .top .top_1 .list_3 li{
+	list-style: none;
+	display:inline-block;
+	margin:2px;
+}
+header .top .top_1 .list_3 li a{
+	text-decoration: none;
+	color:white;
+}
+/*logo*/
+/*nav*/
+nav{
+	width:80%;
+	height:85px;
+	margin:0 auto;
+	position: relative;
+}
+nav img{
+	position: absolute;
+	top:10%;
+}
+nav .list_nav{
+	position: absolute;
+	left:40%;
+}
+nav .list_nav li{
+	list-style: none;
+	float: left;
+	border:1px solid white;
+	width:65px;
+	height:80px;
+	text-align: center;
+	line-height:80px;
+}
+nav .list_nav li:hover{
+	background-color: #50BBDB;
+}
+nav .list_nav li a{
+	text-decoration: none;
+	color:black;
+}
+nav .list_nav li a:hover{
+	color:white;
+}
+/*main*/
+#top{
+	width: 900px;
+	height: 300px;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+#top .ul li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+#img{
+	width: 1044px;
+	margin-top: 36px;
+}
+#top .ul1{
+	width: 1000px;
+}
+#top .ul1 li{
+	list-style: none;
+    float: left;
+    margin-left: 75px;
+    width: 157px;
+    margin-top: 14px;
+    text-align: center;
+}
+#top .ul1 .color{
+	color: #70C6E1;
+}
+#top .ul1 .ling{
+	color: #AEAEAE;
+}
+#center #img1{
+	margin-left: 164px;
+    margin-top: 31px;
+}
+#center #p{
+	margin-left: 212px;
+    margin-top: -33px;
+    font-size: 22px;
+}
+#center #p span{
+	color: #E94E25;
+}
+#center #pp{
+	margin-left: 649px;
+    margin-top: -22px;
+}
+#center #ppp{
+	margin-left: 978px;
+    margin-top: -23px;
+    font-size: 22px;
+    color: #E94E25;
+}
+/*div  da*/
+#da{
+	width: 1000px;
+	height: 400px;
+	/*border: 1px solid black;*/
+	margin-left: 153px;
+	margin-top: 40px;
+	position: relative;
+}
+#da .da li{
+	list-style: none;	
+}
+#da .da .kk{
+	height: 30px;
+    font-size: 22px;
+    background: #F7F7F7;
+    line-height: 30px;
+    padding: 10px;
+}
+#da .da .k{
+	height: 80px;
+    font-size: 22px;
+    border-bottom: 1px solid lightgray;
+    line-height: 50px;
+    padding: 10px;
+}
+#da .da .k p{
+	line-height: 84px;
+}
+
+#da .da .k #tu{
+	position: absolute;
+    top: 71px;
+    left: 171px;
+}
+#da .da .k span{
+	position: absolute;
+    top: 79px;
+    left: 238px;
+    font-size: 16px;
+}
+#da .da .k #input{
+	position: absolute;
+    right: 166px;
+    top: 96px;
+    width: 40px;
+    height: 23px;
+}
+#da .da .k #tu1{
+	position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 66px;
+    height: 90px;
+}
+#da .da .k #tu3{
+	position: absolute;
+    top: 173px;
+    left: 171px;
+}
+#da .da .k #input1{
+	position: absolute;
+    right: 166px;
+    top: 200px;
+    width: 40px;
+    height: 23px;
+}
+#da .da .k #tu4{
+	position: absolute;
+    top: 274px;
+    left: 167px;
+}
+#da .da .k #input2{
+	position: absolute;
+    right: 166px;
+    top: 300px;
+    width: 40px;
+    height: 23px;
+}
+.xia{
+	position: relative;
+}
+.xia #xia{
+	width: 199px;
+    position: absolute;
+    right: 448px;
+    font-size: 22px;
+}
+.xia #xia span{
+	color: #EA5728;
+}
+.xia #tj{
+	width: 153px;
+    height: 50px;
+    position: absolute;
+    right: 286px;
+    background: url(../images/zf-6.jpg);
+    top: -13px;
+    border: none;
+}
+/*footer*/
+.footer .foot-ul{
+	height: 40px;
+	background: #444B55;
+	color: #D8DADB;
+	overflow: hidden;
+	list-style: none;
+	line-height: 40px;
+	margin-top: 0px;
+}
+.footer .foot-ul li{
+	float: left;
+	margin-left: 12%;
+}
+.footer .foot-ul1{
+	height: 30px;
+	background: #565D65;
+	color: #D8DADB;
+	overflow: hidden;
+	list-style: none;
+	line-height: 40px;
+	margin-top: -10px;
+}
+.footer .foot-ul1 li{
+	margin-left: 31%;
+}

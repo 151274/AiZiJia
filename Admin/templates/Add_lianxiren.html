@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+    <form action="Save_lianxiren.php" method="post" enctype="multipart/form-data">
+        <table class="table table-bordered">
+        {if $arr}<input type="hidden" name="pdtj" value="{$arr.id}">{/if}
+        <tr>
+            <td><label for="name">姓名</label></td>
+            <td><input class="form-control" type="text" name="name" id="name" value="{if $arr}{$arr.name}{/if}"></td>
+        </tr>
+
+        <tr>
+            <td><label for="sex">性别</label></td>
+            <td><input class="form-control" type="text" name="sex" id="sex" value="{if $arr}{$arr.sex}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">电话</label></td>
+            <td><input class="form-control" type="text" name="phone" id="phone" value="{if $arr}{$arr.phone}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="email">邮箱</label></td>
+            <td><input class="form-control" type="text" name="email" id="email" value="{if $arr}{$arr.email}{/if}"></td>
+        </tr>
+        <tr>
+            <td><label for="dingdanid">订单ID</label></td>
+            <td><input class="form-control" type="text" name="dingdanid" id="dingdanid" value="{if $arr}{$arr.dingdanid}{/if}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="right"><input type="submit" class="btn btn-default"></td>
+        </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">用户id</td>
+            <td valign="top">线路id</td>
+            <td valign="top">行程安排1,2,3</td>
+            <td valign="top">餐食安排1,2,3</td>
+            <td valign="top">交通安排1,2,3</td>
+            <td valign="top">综合评价5分</td>
+            <td valign="top">评论</td>
+            <td valign="top">订单id</td>
+            <td valign="top">评论日期</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.userid}</td>
+            <td valign="top">{$value.xid}</td>
+            <td valign="top">{$value.anpai}</td>
+            <td valign="top">{$value.canshi}</td>
+            <td valign="top">{$value.jiaotong}</td>
+            <td valign="top">{$value.zonghepingjia}</td>
+            <td valign="top">{$value.pinglun}</td>
+            <td valign="top">{$value.dingdanid}</td>
+            <td valign="top">{$value.pinglunriqi}</td>
+            <td valign="top">
+                <a href="Add_pinglun.php?table=pinglun&id={$value.id}">修改</a>
+                <a href="delete.php?table=pinglun&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+
+</div>
+</body>
+</html>

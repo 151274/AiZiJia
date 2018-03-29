@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">线路名称</td>
+            <td valign="top">单价</td>
+            <td valign="top">行程概要</td>
+            <td valign="top">出发日期</td>
+            <td valign="top">天数</td>
+            <td valign="top">简短介绍</td>
+            <td valign="top">领队id</td>
+            <td valign="top">查看次数</td>
+            <td valign="top">点赞次数</td>
+            <td valign="top">查看图片</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.xianlumingcheng}</td>
+            <td valign="top">{$value.danjia}</td>
+            <td valign="top">{$value.xingchenggaiyao}</td>
+            <td valign="top">{$value.chufariqi}</td>
+            <td valign="top">{$value.tianshu}</td>
+            <td valign="top">{$value.jianduanjieshao}</td>
+            <td valign="top">{$value.lingduiid}</td>
+            <td valign="top">{$value.chakancishu}</td>
+            <td valign="top">{$value.qitaid}</td>
+            <td valign="top"><a href="Show_xianlupic.php">线路图片</a></td>
+            <td valign="top">
+                <a href="Add_xianluxiangqing.php?table=xianluxiangqing&id={$value.id}">修改</a>
+                <a href="delete.php?table=xianluxiangqing&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div class="a_link">
+        <a href="Add_xianluxiangqing.php" class="btn btn-default btn-sm">添加</a>
+    </div>
+</div>
+</body>
+</html>

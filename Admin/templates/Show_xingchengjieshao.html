@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">线路id</td>
+            <td valign="top">第几天</td>
+            <td valign="top">线路</td>
+            <td valign="top">住宿</td>
+            <td valign="top">路线详情</td>
+            <td valign="top">第一张图</td>
+            <td valign="top">第二张图</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top">{$value.xid}</td>
+            <td valign="top">{$value.days}</td>
+            <td valign="top">{$value.xianlu}</td>
+            <td valign="top">{$value.zhusu}</td>
+            <td valign="top">{$value.luxianxiangqing}</td>
+            <td valign="top"><img style="width: 100px;" src="{$uploads}{$value.img1}" alt=""></td>
+            <td valign="top"><img style="width: 100px;" src="{$uploads}{$value.img2}" alt=""></td>
+            <td valign="top">
+                <a href="Add_xingchengjieshao.php?table=xingchengjieshao&id={$value.id}">修改</a>
+                <a href="delete.php?table=xingchengjieshao&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div class="a_link">
+        <a href="Add_xingchengjieshao.php" class="btn btn-default btn-sm">添加</a>
+    </div>
+
+</div>
+</body>
+</html>

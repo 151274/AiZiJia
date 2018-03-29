@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/{$css}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="wrap scroll-1">
+
+    <table class="table table-bordered">
+        <tr>
+            <td valign="top">轮播图片</td>
+            <td valign="top">链接地址</td>
+            <td valign="top">轮播图板块id</td>
+            <td valign="top">操作</td>
+        </tr>
+        {foreach from=$arr item=value}
+        <tr>
+            <td valign="top"><img class="banner" src="{$uploads}{$value.pic}" alt=""></td>
+            <td valign="top">{$value.url}</td>
+            <td valign="top">{$value.bankuai}</td>
+            <td valign="top">
+                <a href="Add_banner.php?table=banner&id={$value.id}">修改</a>
+                <a href="delete.php?table=banner&id={$value.id}">删除</a>
+            </td>
+        </tr>
+        {/foreach}
+    </table>
+    <div class="a_link">
+        <a href="Add_banner.php" class="btn btn-default btn-sm">添加</a>
+    </div>
+
+</div>
+</body>
+</html>
