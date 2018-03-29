@@ -7,7 +7,7 @@
  * Time: 14:43
  */
 
-define("APP_PATH",$_SERVER["DOCUMENT_ROOT"]."/aizijia/");
+define("APP_PATH",$_SERVER["DOCUMENT_ROOT"]."/");
 require APP_PATH."Public/libs/Smarty.class.php";
 
 $smarty=new Smarty();
